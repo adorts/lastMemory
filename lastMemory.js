@@ -49,3 +49,8 @@
 
   window.lastMemory = lastMemory
 })(window)
+
+
+```js
+window.$last = window.lastMemory
+

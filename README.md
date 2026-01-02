@@ -22,16 +22,10 @@ Think of it as **“navigation memory”** that preserves a user’s intent.
 
 You can include **lastMemory** via CDN. No build tools required.
 
-### unpkg
-
-```html
-<script src="https://unpkg.com/lastmemory@1.0.0/lastMemory.js"></script>
-```
-
 ### jsDelivr
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/adorts/lastMemory@1.0.0/lastMemory.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/adorts/lastMemory@main/lastMemory.js"></script>
 ```
 
 Once loaded, you can access the library as:

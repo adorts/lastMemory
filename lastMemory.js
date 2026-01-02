@@ -6,7 +6,7 @@
       let data = {
         url: options.url || window.location.href,
         time: Date.now(),
-        expires: options.expires || 10 * 60 * 1000, // default 10 mins
+        expires: options.expires || 10 * 60 * 1000,
         once: options.once !== false
       }
 
@@ -49,8 +49,3 @@
 
   window.lastMemory = lastMemory
 })(window)
-
-
-```js
-window.$last = window.lastMemory
-
